@@ -222,3 +222,46 @@ a:hover .logo {
 .btn-mostrar-projetos.remover {
     display: none;
 }
+
+
+@media(max-width: 1280px) {
+
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .informacao {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container-projetos {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 425px) {
+    .informacao h1 {
+        font-size: 30px;
+    }
+
+    .informacao p {
+        font-size: 16px;
+    }
+
+    .container-foto img {
+        max-width: 320px;
+    }
+
+    .projetos{
+        padding: 30px;
+    }
+}
