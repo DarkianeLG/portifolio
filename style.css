@@ -94,6 +94,13 @@ a:hover .logo {
     margin-bottom: 20px;
 }
 
+.informacao h2 {
+    font-family: "Raleway" sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .informacao p {
     font-family: "Raleway" sans-serif;
     font-size: 24px;
@@ -120,6 +127,40 @@ a:hover .logo {
     color: #9443d8;
     border: 1px solid #9443d8;
     transform: scale(1.1);
+}
+
+.hard-skill {
+    display: flex;
+    gap: 20px;
+}
+
+.hard-skill img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.hard-skill img:hover {
+    border: 1px solid #9443d8;
+    transform: scale(1.1);
+}
+
+.soft-skill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.soft-skill li {
+    font-family: "Raleway" sans-serif;
+    font-size: 20px;
+    list-style-type: circle;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .foto {
@@ -257,11 +298,21 @@ a:hover .logo {
         font-size: 16px;
     }
 
+    .informacao h2 {
+        font-size: 25px;
+    }
+
+    .soft-skill li {
+        font-size: 15px;
+        padding-left: 0, 30px;
+
+    }
+
     .container-foto img {
         max-width: 320px;
     }
 
-    .projetos{
+    .projetos {
         padding: 30px;
     }
 }
