@@ -1,5 +1,5 @@
 let botãoMostrarProjeto = document.querySelector('.btn-mostrar-projetos');
-let projetosInativos = document.querySelectorAll('projeto:not(.ativo)');
+let projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 
 botãoMostrarProjeto.addEventListener('click', () => {
     mostrarProjetosInativos();
@@ -10,8 +10,8 @@ function mostrarProjetosInativos() {
     projetosInativos.forEach(projetoInativo => {
         projetoInativo.classList.add('ativo');
     });
-
 }
+
 function escoderBotão() {
     botãoMostrarProjeto.classList.add('remover');
 }
