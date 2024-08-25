@@ -166,6 +166,7 @@ a:hover .logo {
 .foto {
     max-width: 450px;
     border-radius: 50%;
+    margin-top: -400px; 
 }
 
 .container-foto img {
@@ -308,6 +309,9 @@ a:hover .logo {
 
     }
 
+    .foto {
+        margin-top: 70px; 
+    }
     .container-foto img {
         max-width: 320px;
     }
