@@ -285,6 +285,15 @@ a:hover .logo {
         align-items: center;
     }
 
+    .soft-skill li {
+        margin-left: 50px;
+
+    }
+
+    .foto {
+        margin-top: 70px; 
+    }
+
     .container-projetos {
         padding: 0 30px;
     }
@@ -305,13 +314,13 @@ a:hover .logo {
 
     .soft-skill li {
         font-size: 15px;
-        padding-left: 0, 30px;
-
+        margin-left: 30px;
     }
 
     .foto {
         margin-top: 70px; 
     }
+
     .container-foto img {
         max-width: 320px;
     }
